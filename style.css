@@ -51,7 +51,7 @@ body {
 }
 
 .message p {
-  display: none;
+  visibility: hidden;
   color: red;
   font-size: 16px;
 }

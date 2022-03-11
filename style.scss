@@ -56,7 +56,7 @@ body {
 
 .message {
   p {
-    display: none;
+    visibility: hidden;
     color: red;
     font-size: 16px;
   }
@@ -97,7 +97,4 @@ body {
   .form-wrapper {
     width: 50vw;
   }
-}
-
-@media screen and (min-width: 1025px) {
 }
