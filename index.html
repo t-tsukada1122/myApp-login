@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link  href="https://unpkg.com/sanitize.css"  rel="stylesheet"/>
+    <title>ログイン画面</title>
+</head>
+<body>
+    <div class="form-wrapper">
+        <h1>ログイン</h1>
+        <form>
+          <div class="form-item">
+            <label for="user-id"></label>
+            <input type="text" name="user-id" required="required" placeholder="ID" id="user-id"></input>
+          </div>
+          <div class="form-item">
+            <label for="user-password"></label>
+            <input type="password" name="user-password" required="required" placeholder="Password" id="user-password"></input>
+          </div>
+          <div class="message">
+            <p id="message">ID・パスワードを入力してください。</p>
+          </div>
+          <div class="button-panel">
+            <input type="submit" class="button" title="ログイン" value="ログイン" id="login"></input>
+          </div>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
