@@ -1,6 +1,6 @@
 body {
-  background: #eaf3ff;
-  color: #333;
+  background: #e9e7e7;
+  color: #5a5a5a;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -11,10 +11,12 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background: white;
+  background: #f7f5f5;
   padding: 2em, 1em;
   min-width: 340px;
   height: 50vh;
+  -webkit-box-shadow: 0 1.9px 2.5px rgba(0, 0, 0, 0.057), 0 5px 6.1px rgba(0, 0, 0, 0.076), 0 10.1px 11.4px rgba(0, 0, 0, 0.086), 0 19.2px 19.8px rgba(0, 0, 0, 0.092), 0 38.4px 34.8px rgba(0, 0, 0, 0.1), 0 101px 74px rgba(0, 0, 0, 0.13);
+          box-shadow: 0 1.9px 2.5px rgba(0, 0, 0, 0.057), 0 5px 6.1px rgba(0, 0, 0, 0.076), 0 10.1px 11.4px rgba(0, 0, 0, 0.086), 0 19.2px 19.8px rgba(0, 0, 0, 0.092), 0 38.4px 34.8px rgba(0, 0, 0, 0.1), 0 101px 74px rgba(0, 0, 0, 0.13);
 }
 
 .form-wrapper h1 {
@@ -32,10 +34,10 @@ body {
 }
 
 .form-item input {
-  background: #fafafa;
+  background: white;
   border: none;
-  border: 2px solid #e9e9e9;
-  color: #333;
+  border: 2px solid #e9e7e7;
+  color: #5a5a5a;
   font-size: 1em;
   height: 50px;
   -webkit-transition: 0.3s;
@@ -44,7 +46,7 @@ body {
 }
 
 .form-item input:focus {
-  border: 2px solid #c0c0c0;
+  border: 2px solid #5a5a5a;
   outline: none;
 }
 
@@ -60,7 +62,7 @@ body {
 }
 
 .button-panel .button {
-  background: #b6dfff;
+  background: #5a5a5a;
   border: none;
   color: white;
   cursor: pointer;
@@ -72,6 +74,8 @@ body {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   width: 100%;
+  -webkit-box-shadow: 0 1.9px 2.5px rgba(0, 0, 0, 0.057), 0 5px 6.1px rgba(0, 0, 0, 0.076), 0 10.1px 11.4px rgba(0, 0, 0, 0.086), 0 19.2px 19.8px rgba(0, 0, 0, 0.092), 0 38.4px 34.8px rgba(0, 0, 0, 0.1), 0 101px 74px rgba(0, 0, 0, 0.13);
+          box-shadow: 0 1.9px 2.5px rgba(0, 0, 0, 0.057), 0 5px 6.1px rgba(0, 0, 0, 0.076), 0 10.1px 11.4px rgba(0, 0, 0, 0.086), 0 19.2px 19.8px rgba(0, 0, 0, 0.092), 0 38.4px 34.8px rgba(0, 0, 0, 0.1), 0 101px 74px rgba(0, 0, 0, 0.13);
 }
 
 .button {
@@ -79,8 +83,7 @@ body {
 }
 
 .button:hover {
-  background: #333;
-  color: white;
+  background: #2864f0;
 }
 
 @media screen and (min-width: 768px) {
