@@ -5,24 +5,19 @@ $black: #5a5a5a;
 $hover-color: #00b9b9;
 
 body {
-  background: $secondary-colorB;
+  background-color: $secondary-colorB;
   color: $black;
   box-sizing: border-box;
 }
 
 .form-wrapper {
+  width: 100%;
   position: absolute;
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: $secondary-colorA;
   padding: 2em 5%;
-  min-width: 340px;
-  min-height: 40vh;
-  box-shadow: 0 1.9px 2.5px rgba(0, 0, 0, 0.057),
-    0 5px 6.1px rgba(0, 0, 0, 0.076), 0 10.1px 11.4px rgba(0, 0, 0, 0.086),
-    0 19.2px 19.8px rgba(0, 0, 0, 0.092), 0 38.4px 34.8px rgba(0, 0, 0, 0.1),
-    0 101px 74px rgba(0, 0, 0, 0.13);
+
   h1 {
     text-align: center;
     padding: 1em 0;
@@ -33,7 +28,7 @@ body {
   margin-bottom: 1.2em;
   width: 100%;
   input {
-    background: white;
+    background-color: white;
     border: none;
     border: 2px solid $secondary-colorB;
     font-size: 1em;
@@ -62,7 +57,7 @@ body {
 .button-panel .button {
   width: 100%;
   height: 50px;
-  background: $primary-color;
+  background-color: $primary-color;
   border: none;
   color: white;
   cursor: pointer;
@@ -83,13 +78,19 @@ body {
 
 .button {
   &:hover {
-    background: $hover-color;
+    background-color: $hover-color;
   }
 }
 
 @media screen and (min-width: 768px) {
   .form-wrapper {
     width: 70vw;
+    min-height: 40vh;
+    background-color: $secondary-colorA;
+    box-shadow: 0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+      0 5px 6.1px rgba(0, 0, 0, 0.076), 0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+      0 19.2px 19.8px rgba(0, 0, 0, 0.092), 0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+      0 101px 74px rgba(0, 0, 0, 0.13);
   }
   .form-item {
     input {
