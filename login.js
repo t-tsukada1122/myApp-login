@@ -14,7 +14,7 @@ login.addEventListener('click', (e) => {
     } else if (userID.value === 'Nakayama' && userPassword.value === 'Kinni-kun') {
         // 打刻画面へ
         e.preventDefault();
-        window.location.href = '../time/index.html';
+        window.location.href = 'https://t-tsukada1122.github.io/myApp-time/';
     } else {
         alert('IDまたはパスワードが間違っています。');
     }
