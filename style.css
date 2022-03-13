@@ -27,7 +27,6 @@ body {
 
 .form-item input {
   background-color: white;
-  border: none;
   border: 2px solid #e9e7e7;
   font-size: 1em;
   -webkit-transition: 0.3s;
